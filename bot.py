@@ -1,5 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
+from nexichat import nexichat
 
 # List of supported emojis for reactions
 SUPPORTED_EMOJIS = ["👍", "❤️", "😂", "🔥", "😢", "😡", "🤩", "👏", "😎", "🙌",
